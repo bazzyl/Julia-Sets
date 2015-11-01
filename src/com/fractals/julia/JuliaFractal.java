@@ -1,3 +1,5 @@
+package com.fractals.julia;
+
 /**
  *  Julia Fractal Class
  *  f(z) = z^2 + c
@@ -49,10 +51,12 @@ public class JuliaFractal {
 
     public void zoomIn() {
         width = width*0.8;
+        this.dx = width/screenSizeX;
     }
 
     public void zoomOut() {
         width = width/0.8;
+        this.dx = width/screenSizeX;
     }
 
     public void moveRight() {

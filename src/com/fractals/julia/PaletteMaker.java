@@ -1,3 +1,5 @@
+package com.fractals.julia;
+
 import java.awt.*;
 
 public class PaletteMaker {

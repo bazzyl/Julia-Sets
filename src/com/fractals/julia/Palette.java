@@ -1,3 +1,5 @@
+package com.fractals.julia;
+
 // package edu.hws.eck.umb.palette;
 
 import javax.swing.event.ChangeEvent;
